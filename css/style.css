@@ -1,0 +1,182 @@
+body
+{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+
+
+
+/*header has two parts topheder and bottom header*/
+#topHeader {
+    background-color: rgb(247, 252, 255);
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+#topHeader a {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 0.80rem; /*this will sizing the font as per default fonts in device*/
+}
+
+/*customize the in buit class container-fluid to remove unwanted padding*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*the fonts in navbar*/
+nav ul li a {
+    font-size: 1rem;
+    
+}
+
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-scroll { 
+    opacity: 0.95;
+    transition: 0.5s;
+    animation: scroll 0.6s 1;
+    box-shadow: 1px 4px 40px rgb(78, 78, 78);
+}
+@keyframes scroll {
+    0%{transform: translateY(-100%);}
+    100%{transform: translateY(0%);}
+}
+
+.branding {
+    width: 80px;
+}
+
+.fa-bars {
+    font-size: 25px;
+}
+
+
+
+
+/*footer start*/
+
+/*top footer*/
+.full-footer {
+    background-color: #215168;
+}
+.topFooter p {
+    color: rgb(238, 238, 238);
+}
+.topFooter a {
+    color: rgb(238, 238, 238);
+}
+
+.topFooter h3 {
+    color: white;
+}
+
+/*bottom footer*/
+.bottomFooter {
+    background-color: #2e2e2e;
+}
+
+.bottomFooter p {
+    color: #ffffff;
+}
+
+.row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*footer end*/
+
+/*top-section end*/
+
+.top-section {
+    color: white;
+   /*background-color: #67caf8;*/
+   background: linear-gradient(to bottom, #8bc1ff 0%,#3ac1f7 0%,#7ac0f5 82%);
+   
+}
+
+.top-section a {
+    color: ghostwhite;
+}
+
+
+
+/*top-section end*/
+
+/* ++++++++++ End of Home page +++++++++ */
+
+
+/* ++++++++++ start of Execoom page +++++++++ */
+
+/* breacrumb section start*/
+.breadcrumb, .breadcrumb-section {
+    background: linear-gradient(to bottom, #e1f5fd 9%,#ffffff 71%);
+}
+.breadcrumb li {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.all-dps {
+    width: 150px;
+    border-radius: 100%;
+}
+
+.team a {
+    color: rgb(79, 197, 226);
+    font-size: 25px;
+    margin: 4px;
+}
+.team a:hover {
+    color: rgb(40, 152, 180);
+}
+
+/* breacrumb section end*/
+
+/* ++++++++++ end of Execoom page +++++++++ */
+
+/* ++++++++++ start of contact us page +++++++++ */
+
+.address p {
+    font-weight: 600;
+}
+
+/* ++++++++++ end of contact us page +++++++++ */
+
+/* ++++++++++ start pg about pade +++++++++ */
+
+.section-about a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: black;
+}
+.onactive {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    background: linear-gradient(to bottom, #2389b1 9%,#7ccbeb 71%);
+    font-weight: bold;
+    transition: all 0.4s;
+    background-size: 500px;
+    color: white;
+}
+
+/* ++++++++++ end of about page +++++++++ */
+
