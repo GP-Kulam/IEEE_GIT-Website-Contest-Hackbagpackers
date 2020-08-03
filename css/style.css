@@ -146,16 +146,15 @@ nav ul li a:hover::before {
 
 
 .join-ieee-button {
-    border-radius: 6px;
-    background: #f8f8f8;
-    box-shadow:  7px 7px 13px #d3d3d3, 
-                -7px -7px 13px #ffffff;
-    padding: 20px;
+    color: white;
     font-weight: bold;
+    font-size: 20px;
+    background: #c64aff93;
 }
 
 .join-ieee-button:hover {
-    background: #e9e9e9;
+    color: #c64aff;
+    background: rgb(255, 255, 255);
 }
 
 
