@@ -32,6 +32,7 @@ nav ul li a {
     font-weight: 600;
     transition: 0.3s;
 }
+
 nav ul:hover li a {
     transform: translateX(20px);
     opacity: 0.2;
@@ -42,11 +43,28 @@ nav ul li a:hover  {
     filter: blur(0px);
     opacity: 1; 
     border-radius: 5px;
+    background: #f8f9fa;
+    box-shadow:  5px 5px 11px #d3d4d5, 
+                -5px -5px 11px #ffffff;
+}
+
+.on-scroll ul:hover li a {
+    transform: translateX(20px);
+    opacity: 0.2;
+    filter: blur(2px);
+}
+
+.on-scroll ul li a:hover  {
+    filter: blur(0px);
+    opacity: 1; 
+    border-radius: 5px;
     background: #be9fe1;
     box-shadow:  5px 5px 11px #a287bf, 
                 -5px -5px 11px #dbb7ff;
     
 }
+
+
 
 .navbar {
     transition: 0.3s all;
@@ -84,7 +102,7 @@ nav ul li a:hover  {
    /*background-color: #67caf8;*/ 
    position: absolute;
    text-align: center;
-   margin-top: 20vh;
+   margin-top: 32vh;
     
 }
 
