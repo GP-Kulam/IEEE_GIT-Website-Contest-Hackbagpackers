@@ -40,13 +40,29 @@ nav ul:hover li a {
 }
 
 nav ul li a:hover  {
+    transform: scale(1);
     filter: blur(0px);
     opacity: 1; 
-    border-radius: 5px;
-    background: #f8f9fa;
-    box-shadow:  5px 5px 11px #d3d4d5, 
-                -5px -5px 11px #ffffff;
 }
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    z-index: -1;
+    background: #ffffff;
+    transform: scaleX(0);
+}
+
+nav ul li a:hover::before {
+    transition: transform 0.3s;
+    transform: scaleX(1);
+}
+
 
 .on-scroll ul:hover li a {
     transform: translateX(20px);
@@ -57,11 +73,25 @@ nav ul li a:hover  {
 .on-scroll ul li a:hover  {
     filter: blur(0px);
     opacity: 1; 
-    border-radius: 5px;
-    background: #be9fe1;
-    box-shadow:  5px 5px 11px #a287bf, 
-                -5px -5px 11px #dbb7ff;
     
+}
+
+.on-scroll ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    z-index: -1;
+    background: #dcbeff;
+    transform: scaleX(0);
+}
+
+.on-scroll ul li a:hover::before {
+    transition: transform 0.3s;
+    transform: scaleX(1);
 }
 
 
@@ -102,7 +132,7 @@ nav ul li a:hover  {
    /*background-color: #67caf8;*/ 
    position: absolute;
    text-align: center;
-   margin-top: 32vh;
+   margin-top: 25vh;
     
 }
 
