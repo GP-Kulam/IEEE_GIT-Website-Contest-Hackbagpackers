@@ -318,3 +318,23 @@ box-shadow:  15px 15px 30px #cacaca,
 
 /* ++++++++++ end of about page +++++++++ */
 
+
+/*** ++++++++ events page start +++++++**/
+.Register-button {
+    background: #ac64ff;
+    color: #ffffff;
+}
+
+.Register-button:hover {
+    background-color: #8d2aff;
+    color: #ffffff;
+}
+
+
+.events-template {
+    border-radius: 26px;
+    background: #ffffff;
+    box-shadow:  13px 13px 26px #e8e8e8, 
+                -13px -13px 26px #ffffff;
+}
+/*** ++++++++ events page start +++++++**/
