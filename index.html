@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!--aos animation CSS-->
-    <link rel="stylesheet" href="aos/aos.css">
+    <link rel="stylesheet" href="css/aos.css">
 
     <title>IEEE-GIT</title>
     <link rel = "icon" href ="imgs/ieee.png" type = "image/x-icon"> 
@@ -26,83 +26,72 @@
       <!--header start-->
     
       <!--topHeader start-->
-      <div class="p-1" id="topHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-right">
-              <a class="p-1" href="mailto:kulamgangadhar03@gmail.com"><i class="fas fa-envelope"></i> kulamgangadar03@gmail.com</a>
+      <header id="particles-js">
+        <div class="topHeader">
+          <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+                          <!--menu Toggler-->
+              <i type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" >
+               <span class="fa fa-bars"></span> </i>
+              <!--logo start-->
+              <a href="#" style="float: none;" class="navbar-brand align-items-center">
+               <!---<h2 style="color: #64c0eb;"><i class="fas fa-book-reader"></i> IEEE-GIT</h2>-->
+               <img src="/assets/images/IEEE-GIT-Brand.png" alt="IEEE logo" width="150px">
+                <p style="color: rgb(0, 0, 0); font-size: 0.8rem; font-weight: bold;" class="git-ieee ml-5 mt-n2" id="git" data-aos="fade-right" ><i><span style="font-weight: bold; color: #fa7d09; font-size: 1.1rem;" >GIT</span> STUDENT
+                  <br><span style="font-size: 1rem; " >B R A N C H</span></i>
+                </p>
+                
+              </a> <!--logo end-->
+              <div class="collapse navbar-collapse" id="navbarToggler">
+                <!--ul start--> 
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a href="index.html" class="nav-link pt-2 pb-2 pl-4 pr-4">Home</a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a href="pages/about.html" class="nav-link pt-2 pb-2 pl-4 pr-4">About</a>
+                  </li>
+       
+                  <li class="nav-item">
+                    <a href="pages/events.html" class="nav-link pt-2 pb-2 pl-4 pr-4">Events</a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a href="pages/EXECOM.html" class="nav-link pt-2 pb-2 pl-4 pr-4">EXECOM 2020</a>
+                  </li>
+  
+                  <li class="nav-item mr-5">
+                    <a href="pages/contact.html" class="nav-link pt-2 pb-2 pl-4 pr-4">Contact us</a>
+                  </li>
+  
+                </ul> <!--ul start-->
             </div>
+  
+            </nav>
           </div>
         </div>
-      </div> <!--topHeader end-->
-
-      <!--bottomHeader start--> 
-      <div style="background-color: #2d393d;" id="bottomHeader" class="sticky-top my-navbar">
-        <div class="container-fluid">
-          <nav id="navbar_top" class="navbar navbar-dark navbar-toggleable-md navbar-inverse navbar-expand-lg">
-            <!--menu Toggler-->
-            <i type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" >
-             <span class="fa fa-bars"></span> </i>
-            <!--logo start-->
-            <a href="#" class="navbar-brand align-items-center">
-             <!---<h2 style="color: #64c0eb;"><i class="fas fa-book-reader"></i> IEEE-GIT</h2>-->
-             <img src="assets/images/IEEE-GIT-Brand.png" alt="IEEE logo" width="150px">
-              <p style="color: rgb(221, 219, 219); font-size: 0.8rem; font-weight: bold;" class="git-ieee ml-5 mt-n2" id="git" data-aos="fade-right" ><i><span style="font-weight: bold; color: rgb(231, 216, 3); font-size: 1.1rem;" >GIT</span> STUDENT
-                <br><span style="font-size: 1rem; " >B R A N C H</span></i>
-              </p>
-              
-            </a> <!--logo end-->
-            <div class="collapse navbar-collapse" id="navbarToggler">
-              <!--ul start--> 
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-3 ml-1 active">
-                  <a href="#" class="nav-link">Home</a>
-                </li>
-
-                <li class="nav-item mr-3 ml-1">
-                  <a href="pages/about.html" class="nav-link">About</a>
-                </li>
-     
-                <li class="nav-item mr-3 ml-1">
-                  <a href="pages/events.html" class="nav-link">Events</a>
-                </li>
-
-                <li class="nav-item mr-3 ml-1">
-                  <a href="pages/EXECOM.html" class="nav-link">EXECOM 2020</a>
-                </li>
-
-                <li class="nav-item mr-5 ml-1">
-                  <a href="pages/contact.html" class="nav-link">Contact us</a>
-                </li>
-
-              </ul> <!--ul start-->
-          </div>
-
-          </nav>
-        </div>
-      </div> <!--bottomHeader end-->
-   <!--header end-->
-    
-    <!--section start-->
-    <section class="top-section pt-4 pb-5 pl-4">
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-5">
-                  <h2 id="membership"></h2><br>
-                  <h6>Benefits of Membership in the IEEE Power & Energy Society Include: 
-                      Free subscription to PES award-winning Power & Energy magazine. 
-                      </h6><br>
-                      <a href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join">
-                        <button  class="btn join-ieee-button p-2 pl-1 pr-1">JOIN NOW</button></a>
-                      <a href="#"> Read more....</a>
-              </div>
-              <div class="col-md-7 text-center mt-4">
-                <img src="assets/images/strong.png" class="img-fluid" alt="power">
+          <div class="top-section">
+            <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-12">
+                      <h2 id="membership"></h2><br>
+                      <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nemo, nesciunt fugit. Repudiandae atque perferendis minima ad unde. 
+                        Enim maiores placeat, quod nemo cumque iste incidunt officiis officia a, laborum odio.
+                          </h6><br>
+                          <a href="pages/about.html">
+                            <button  class="btn join-ieee-button pl-4 pr-4 pt-2 pb-2">Know more</button></a>
+                          
+                  </div>
+                  
               </div>
           </div>
-      </div>
-  </section> <!--section end-->
+            
+              </div>
+    </header> 
     
+  
   <!--footer start-->
   <footer class="full-footer">
     <div class="container topFooter p-1" data-aos="fade-up">
@@ -161,11 +150,17 @@
   </footer>
   <!--footer end-->
 
+
+
+  
+
   <!-- Optional JavaScript -->
-  <script src="aos/aos.js"></script>
+  <script src="js/aos.js"></script>
   <script>
      AOS.init();
   </script>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
 
   <!-- jQuery first--> 
   <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
@@ -174,19 +169,19 @@
 
       $(document).ready(function() {
         $(window).scroll(function() {
-          if($(window).scrollTop() >25) {            
-            $('.my-navbar').addClass("navbar-scroll");
+          if($(window).scrollTop() >10) {            
+            $('.navbar').addClass("on-scroll")
             document.getElementById("git").style.display = "none";
           }
           else{            
-            $('.my-navbar').removeClass("navbar-scroll");
+            $('.navbar').removeClass("on-scroll");
             document.getElementById("git").style.display = "block";            
           }          
         });
       });
 
       var i = 0;
-      var txt = 'Power of IEEE Membership';
+      var txt = 'IEEE GIT';
       var speed = 100;
 
       typewriter();
