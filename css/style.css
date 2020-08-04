@@ -176,7 +176,11 @@ nav ul li a:hover::before {
     font-size: 25px;
 }
 
-
+.GIT-Branch-logo {
+    font-weight: bold;
+    color: #ae00ff; 
+    font-size: 1.1rem;
+}
 
 
 
@@ -289,13 +293,36 @@ box-shadow:  15px 15px 30px #cacaca,
 
 /* ++++++++++ end of Execoom page +++++++++ */
 
+
+
+
+
+
+
+
+
+
 /* ++++++++++ start of contact us page +++++++++ */
 
 .address p {
     font-weight: 600;
 }
 
+.tiny-links{
+    color: #ae04fd;
+}
+
 /* ++++++++++ end of contact us page +++++++++ */
+
+
+
+
+
+
+
+
+
+
 
 /* ++++++++++ start pg about pade +++++++++ */
 
