@@ -218,24 +218,48 @@ nav ul li a:hover::before {
 }
 .social-media a {
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 8px;
     background: #381460;
     height: 60px;
     width: 60px;
-    box-shadow:  6px 6px 12px #301152, 
-                -6px -6px 12px #40176e;
+    box-shadow:  6px 6px 12px -1px #301152, 
+                -6px -6px 12px -1px #40176e;
     color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;            
+    align-items: center; 
+    transition: transform 0.3s;           
+}
+
+.social-media a i {
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+
+.social-media a:hover .fa-facebook {
+    color: #447fff;
+}
+.social-media a:hover .fa-instagram {
+    color: #fd02aa;
+}
+.social-media a:hover .fa-twitter {
+    color: #00acee;
+}
+
+.social-media a:hover i {
+    transform: scale(0.9);
 }
 
 .social-media a:hover {
-    box-shadow: inset 3px 3px 5px #301152af, 
-               inset -3px -3px 5px #40176ea2,
-               inset -3px 3px 5px #301152af, 
-               inset  3px -3px 5px #40176ea2;           
+    box-shadow: inset 3px 3px 5px -1px #301152af, 
+               inset -3px -3px 5px -1px #40176ea2,
+                -1px -1px 0px #301152af, 
+                1px 1px 0px #40176ea2,
+                0px 8px 6px -6px #40176ea2;
+    transform: translateY(2px);                               
 }
+
+
 
 /**social media icons end**/
 .row {
