@@ -236,7 +236,7 @@ nav ul li a:hover::before {
     transition: transform 0.3s;
 }
 
-.social-media a:hover .fa-facebook {
+.social-media a:hover .fa-facebook-f {
     color: #447fff;
 }
 .social-media a:hover .fa-instagram {
