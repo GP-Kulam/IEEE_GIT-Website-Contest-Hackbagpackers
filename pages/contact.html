@@ -163,6 +163,14 @@
    </section>
     <!--form and adress section end-->
     
+    <!--Empty section-->
+   <div class="container">
+    <div class="row m-5">
+      <div class="col-12 m-4"></div>
+    </div>
+  </div>
+  <!--Empty section end-->
+
   <!--footer start-->
   <footer class="full-footer">
     <div class="container topFooter p-1" data-aos="fade-up">
@@ -228,11 +236,13 @@
 
       $(document).ready(function() {
         $(window).scroll(function() {
-          if($(window).scrollTop() >25) {            
+          if($(window).scrollTop() >25) {  
+            $('.navbar').removeClass("bg-light");          
             $('.navbar').addClass("on-scroll");
             document.getElementById("git").style.display = "none";
           }
-          else{            
+          else{
+            $('.navbar').addClass("bg-light");            
             $('.navbar').removeClass("on-scroll");
             document.getElementById("git").style.display = "block";            
           }          
