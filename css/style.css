@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body
 {
     max-width: 100%;
@@ -422,4 +425,29 @@ nav ul li a:hover::before {
     box-shadow:  13px 13px 26px #e8e8e8, 
                 -13px -13px 26px #ffffff;
 }
+
+
+
+#backtoTop {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background: rgb(46,195,34);
+    background: linear-gradient(0deg, rgba(46,195,34,1) 0%, rgba(45,207,253,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.9s ease-out;
+
+}
+
+
 /*** ++++++++ events page start +++++++**/
