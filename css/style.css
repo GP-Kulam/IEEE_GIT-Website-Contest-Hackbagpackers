@@ -211,13 +211,33 @@ nav ul li a:hover::before {
     color: silver;
 }
 
-.fa-icon-holder {
-    border-radius: 10px;
+/**social media icons start**/
+.social-media {
+    display: flex;
+    
+}
+.social-media a {
+    text-decoration: none;
+    border-radius: 6px;
     background: #381460;
-    box-shadow:  5px 5px 11px #301152, 
-             -5px -5px 11px #40176e;   
+    height: 60px;
+    width: 60px;
+    box-shadow:  6px 6px 12px #301152, 
+                -6px -6px 12px #40176e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;            
 }
 
+.social-media a:hover {
+    box-shadow: inset 3px 3px 5px #301152af, 
+               inset -3px -3px 5px #40176ea2,
+               inset -3px 3px 5px #301152af, 
+               inset  3px -3px 5px #40176ea2;           
+}
+
+/**social media icons end**/
 .row {
     padding-left: 0;
     padding-right: 0;
