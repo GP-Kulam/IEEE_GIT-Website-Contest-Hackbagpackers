@@ -86,7 +86,7 @@ nav ul li a:hover::before {
   height: 100%;
   transition: transform 0.3s;
   z-index: -1;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(255, 255, 255);
   transform: scaleX(0);
 }
 
@@ -100,7 +100,7 @@ nav ul li a:hover::before {
 }
 
 .on-scroll {
-  background-color: #d271ff;
+  background-color: #6a3bd6;
   opacity: 0.99;
   box-shadow: 1px 4px 26px rgba(145, 144, 144, 0.548);
   /*transition: 2s all;*/
@@ -139,11 +139,11 @@ nav ul li a:hover::before {
   color: white;
   font-weight: bold;
   font-size: 20px;
-  background: #c64aff93;
+  background: #6b63ffb7;
 }
 
 .join-ieee-button:hover {
-  color: #c64aff;
+  color: #8f4aff;
   background: rgb(255, 255, 255);
 }
 
@@ -161,7 +161,7 @@ nav ul li a:hover::before {
 
 .GIT-Branch-logo {
   font-weight: bold;
-  color: #ae00ff;
+  color: #ff7300;
   font-size: 1.1rem;
 }
 
@@ -169,7 +169,7 @@ nav ul li a:hover::before {
 
 /*top footer*/
 .full-footer {
-  background: #381460;
+  background: #381e75;
 }
 .topFooter p {
   color: silver;
@@ -184,7 +184,7 @@ nav ul li a:hover::before {
 
 /*bottom footer*/
 .bottomFooter {
-  background-color: #2e2e2e;
+  background-color: #160b30;
 }
 
 .bottomFooter p {
@@ -198,10 +198,10 @@ nav ul li a:hover::before {
 .social-media a {
   text-decoration: none;
   border-radius: 8px;
-  background: #381460;
   height: 60px;
   width: 60px;
-  box-shadow: 6px 6px 12px -1px #301152, -6px -6px 12px -1px #40176e;
+  background: #381e75;
+  box-shadow: 6px 6px 12px #301a63, -6px -6px 12px #402387;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -229,9 +229,9 @@ nav ul li a:hover::before {
 }
 
 .social-media a:hover {
-  box-shadow: inset 3px 3px 5px -1px #301152af,
-    inset -3px -3px 5px -1px #40176ea2, -1px -1px 0px #301152af,
-    1px 1px 0px #40176ea2, 0px 8px 6px -6px #40176ea2;
+  box-shadow: inset 3px 3px 5px -1px #281152af,
+    inset -3px -3px 5px -1px #40176ea2, -1px -1px 0px #281152af,
+    1px 1px 0px #40176ea2, 0px 8px 6px -6px #35176ea2;
   transform: translateY(2px);
 }
 
@@ -364,16 +364,13 @@ nav ul li a:hover::before {
 .onactive {
   border-bottom: 3px solid black;
   border-radius: 10px;
-   
 }
-
-
 
 /* ++++++++++ end of about page +++++++++ */
 
 /*** ++++++++ events page start +++++++**/
 .Register-button {
-  background: #ac64ff;
+  background: #536dfe;
   color: #ffffff;
 }
 
@@ -411,7 +408,7 @@ nav ul li a:hover::before {
   opacity: 0;
   transition: opacity 0.9s ease-out;
 }
-/*** ++++++++ events page start +++++++**/
+/*** ++++++++ events page end +++++++**/
 
 /********* start achievement page*********/
 

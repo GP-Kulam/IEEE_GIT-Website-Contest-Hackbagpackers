@@ -34,9 +34,9 @@
         <div class="container-fluid">
           <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <!--menu Toggler-->
-            <i
-              type="button"
+            <button
               class="navbar-toggler"
+              type="button"
               data-toggle="collapse"
               data-target="#navbarToggler"
               aria-controls="navbarToggler"
@@ -44,7 +44,7 @@
               aria-label="Toggle navigation"
             >
               <span class="fa fa-bars"></span>
-            </i>
+            </button>
             <!--logo start-->
             <a
               href="#"
@@ -53,7 +53,8 @@
             >
               <!---<h2 style="color: #64c0eb;"><i class="fas fa-book-reader"></i> IEEE-GIT</h2>-->
               <img
-                src="assets/images/IEEE-GIT-Brand.png"
+                id="brand"
+                src="assets/images/logo/brand-logo-before.png"
                 alt="IEEE logo"
                 width="150px"
               />
@@ -140,16 +141,22 @@
             <br />
             <a
               href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
-              ><button class="btn Register-button pt-2 pb-2 pl-3 pr-3" style="font-size: 20px; font-weight: bold;">
+              ><button
+                class="btn Register-button pt-2 pb-2 pl-3 pr-3"
+                style="font-size: 20px; font-weight: bold;"
+              >
                 JOIN NOW
               </button></a
             >
             <a href="#"> Read more....</a>
           </div>
-          
         </div>
         <div class="col-md-7 text-center mt-4">
-          <img src="assets/images/power.png" class="img-fluid" alt="power" />
+          <img
+            src="assets/images/stand out.png"
+            class="img-fluid"
+            alt="power"
+          />
         </div>
       </div>
     </div>
@@ -245,9 +252,17 @@
       $(document).ready(function () {
         $(window).scroll(function () {
           if ($(window).scrollTop() > 10) {
+            document.getElementById("brand").src =
+              "assets/images/logo/brand-logo-after.png";
+            $(".navbar").removeClass("navbar-light");
+            $(".navbar").addClass("navbar-dark");
             $(".navbar").addClass("on-scroll");
             document.getElementById("git").style.display = "none";
           } else {
+            $(".navbar").addClass("navbar-light");
+            $(".navbar").removeClass("navbar-dark");
+            document.getElementById("brand").src =
+              "assets/images/logo/brand-logo-before.png";
             $(".navbar").removeClass("on-scroll");
             document.getElementById("git").style.display = "block";
           }
