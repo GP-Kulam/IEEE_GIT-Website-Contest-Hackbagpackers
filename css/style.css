@@ -108,7 +108,7 @@ nav ul li a:hover::before {
 }
 
 #particles-js {
-  background: #f8f8f8;
+  background: #ffffff;
   height: 100vh;
   position: relative;
   z-index: 99;
