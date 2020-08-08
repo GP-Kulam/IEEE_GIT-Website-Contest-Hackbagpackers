@@ -57,7 +57,7 @@ nav ul li a::before {
   height: 100%;
   transition: transform 0.3s;
   z-index: -1;
-  background: #ffffff;
+  border-bottom: 2px solid rgb(0, 0, 0);
   transform: scaleX(0);
 }
 
@@ -86,7 +86,7 @@ nav ul li a:hover::before {
   height: 100%;
   transition: transform 0.3s;
   z-index: -1;
-  background: #dc92ffee;
+  border-bottom: 2px solid rgb(0, 0, 0);
   transform: scaleX(0);
 }
 
