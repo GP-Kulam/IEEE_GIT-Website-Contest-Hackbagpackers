@@ -351,7 +351,7 @@ nav ul li a:hover::before {
 .section-about a {
   text-decoration: none;
   font-size: 15px;
-  margin-left: 20px;
+  margin-left: 50px;
   padding-bottom: 10px;
   font-weight: 600;
   color: black;
