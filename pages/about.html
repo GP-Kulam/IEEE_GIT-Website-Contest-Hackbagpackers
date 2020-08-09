@@ -25,40 +25,72 @@
    
       <div>
         <div class="container-fluid">
-          <nav class="navbar navbar-light bg-light fixed-top navbar-toggleable-md navbar-inverse navbar-expand-lg">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <!--menu Toggler-->
-            <i type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" >
-              <span class="fa fa-bars"></span></i>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggler"
+              aria-controls="navbarToggler"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="fa fa-bars"></span>
+            </button>
             <!--logo start-->
-            <a href="#" class="navbar-brand align-items-center">
-             <!---<h2 style="color: #64c0eb;"><i class="fas fa-book-reader"></i> IEEE-GIT</h2>-->
-             <img src="../assets/images/IEEE-GIT-Brand.png" alt="IEEE logo" width="150px">
-              <p style="color: rgb(0, 0, 0); font-size: 0.8rem; font-weight: bold;" class="git-ieee ml-5 mt-n2" id="git" data-aos="fade-right" ><i><span class="GIT-Branch-logo" >GIT</span> STUDENT
-                <br> <span style="font-size: 1rem;" >B R A N C H</span></i>
+            <a
+              href="#"
+              style="float: none;"
+              class="navbar-brand align-items-center"
+            >
+              <!---<h2 style="color: #64c0eb;"><i class="fas fa-book-reader"></i> IEEE-GIT</h2>-->
+              <img
+                id="brand"
+                src="../assets/images/logo/brand-logo-before.png"
+                alt="IEEE logo"
+                width="150px"
+              />
+              <p
+                style="
+                  color: rgb(0, 0, 0);
+                  font-size: 0.8rem;
+                  font-weight: bold;
+                "
+                class="git-ieee ml-5 mt-n2"
+                id="git"
+                data-aos="fade-right"
+              >
+                <i
+                  ><span class="GIT-Branch-logo">GIT</span> STUDENT <br /><span
+                    style="font-size: 1rem;"
+                    >B R A N C H</span
+                  ></i
+                >
               </p>
-              
-            </a> <!--logo end-->
+            </a>
+            <!--logo end-->
             <div class="collapse navbar-collapse" id="navbarToggler">
               <!--ul start--> 
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a href="../index.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">Home</a>
+                  <a href="../index.html" class="nav-link mr-4">Home</a>
                 </li>
 
                 <li class="nav-item active">
-                  <a href="about.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">About</a>
+                  <a href="about.html" class="nav-link mr-4">About</a>
                 </li>
      
                 <li class="nav-item">
-                  <a href="events.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">Events</a>
+                  <a href="events.html" class="nav-link mr-4">Events</a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="EXECOM.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">EXECOM 2020</a>
+                  <a href="EXECOM.html" class="nav-link mr-4">EXECOM 2020</a>
                 </li>
 
                 <li class="nav-item mr-5">
-                  <a href="contact.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">Contact us</a>
+                  <a href="contact.html" class="nav-link mr-4">Contact us</a>
                 </li>
 
               </ul> <!--ul start-->
@@ -102,9 +134,11 @@
         <li class="ml-1"><a href="#secondtab" data-toggle="tab" id="second">History of IEEE</a></li><br><br>
       </ul>
       <div class="tab-content">
+
+        <!--history of IEEE GIT start-->
         <div class="tab-pane active container" id="firsttab">
           <div class="row">
-            <div class="col-md-6 pt-2">
+            <div class="col-12 pt-2">
               <h1>About Us, In Brief</h1>
               <h3>GIT Student Branch</h3>
               <p>Year of Approval: 2003<br>
@@ -119,21 +153,48 @@
               </p> <br>
                  <p>As the popular Hindi saying goes <br>
                   <b>बूँद बूँद से सागर बनता है</b>, same is the case with IEEE GIT.
-                  With just 4-5 members as active IEEE members in the year 1985, the IEEE Student Branch KLS’s GIT has grown big.As an active student branch of the North Karnataka Sub-Section, it has also helped few dormant student branches to revive itself and also guided new institutes to start a student branch. Earlier the members of the branch use to publish technical papers only. With its member strength growing, student activities and student technical symposiums were initiated. Gaining experiences from old conferences like GITCON in 90’s to INFINITY in 2004, IEEE Student Branch has come a long way in contributing to IEEE Community.<br>
+                  With just 4-5 members as active IEEE members in the year 1985, the IEEE Student Branch KLS’s GIT 
+                  has grown big.As an active student branch of the North Karnataka Sub-Section, it has also helped few 
+                  dormant student branches to revive itself and also guided new institutes to start a student branch. 
+                  Earlier the members of the branch use to publish technical papers only. With its member strength growing, 
+                  student activities and student technical symposiums were initiated. Gaining experiences from old conferences 
+                  like GITCON in 90’s to INFINITY in 2004, IEEE Student Branch has come a long way in contributing to IEEE 
+                  Community.<br>
                   Following are some of the Event Details..
                  </p> <br>
-                   <p><b>PAANCHAJANYA</b>: GIT student branch started its annual flagship event PAANCHAJANYA from 2006. The idea of Paanchajanya was conceived with the intention of bettering the techno-managerial skills of the students. Along with this aim it is also organized with the motto- ‘EDUTAINMENT’. The word “Paanchajanya” was coined by the students Mr. Anurag Agarwal and his team, which is the name of the conch of lord Krishna used in the war of Mahabharata. This conch and its sound symbolises victory of dharma over adharma, superiority of light over darkness. This annual flagship event became very popular and students across various engineering institutes of the region use to eagerly wait for this technical symposium. It is being organized every year since 2006.</p> <br>
-                   <b>ALL INDIA CONGRESS</b>: After establishing PAANCHAJNYA, student branch expanded its activities for the whole year. Since 2011, Student branch members are representing the institute at ALL INDIA level.<br>
+                   <p><b>PAANCHAJANYA</b>: GIT student branch started its annual flagship event PAANCHAJANYA from 2006. 
+                    The idea of Paanchajanya was conceived with the intention of bettering the techno-managerial skills of 
+                    the students. Along with this aim it is also organized with the motto- ‘EDUTAINMENT’. The word “Paanchajanya”
+                     was coined by the students Mr. Anurag Agarwal and his team, which is the name of the conch of lord Krishna 
+                     used in the war of Mahabharata. This conch and its sound symbolises victory of dharma over adharma, 
+                     superiority of light over darkness. This annual flagship event became very popular and students across 
+                     various engineering institutes of the region use to eagerly wait for this technical symposium. It is being
+                      organized every year since 2006.</p> <br>
+                   <b>ALL INDIA CONGRESS</b>: After establishing PAANCHAJNYA, student branch expanded its activities for the 
+                   whole year. Since 2011, Student branch members are representing the institute at ALL INDIA level.<br>
                    <br>
-                   <b>HUB LEVEL</b>: GIT student branch was one of the 3 institutes (KLS’s GIT Belagavi, KLE CET Belagavi, MMEC Belagavi) who hosted the first North Karnataka Hub event i-GREEEN in 2013. GIT student branch holds the honours of hosting the first North Karnataka Student Young Professionals WIE Congress in the year 2016.<br>
+                   <b>HUB LEVEL</b>: GIT student branch was one of the 3 institutes (KLS’s GIT Belagavi, KLE CET Belagavi,
+                    MMEC Belagavi) who hosted the first North Karnataka Hub event i-GREEEN in 2013. GIT student branch holds
+                    the honours of hosting the first North Karnataka Student Young Professionals WIE Congress in the year 2016.<br>
                    <br>
-                   <b>SPECTRUM DAYS</b>: Small events like Spectrum Days where technical talks are organised for student members by the EXECOM team.<br>
+                   <b>SPECTRUM DAYS</b>: Small events like Spectrum Days where technical talks are organised for student members
+                    by the EXECOM team.<br>
                    <br>
-                   <b>IEEE DAY</b>: Birthday of IEEE is celebrated every first Tuesday of October. At the student branch IEEE DAY is celebrated along with Technical debates, poster presentations, cake cutting ceremony etc.<br>
+                   <b>IEEE DAY</b>: Birthday of IEEE is celebrated every first Tuesday of October. At the student branch IEEE
+                    DAY is celebrated along with Technical debates, poster presentations, cake cutting ceremony etc.<br>
                    <br>
-                   Members also participate in <b>IEEEXTREME</b> an online coding competition which runs for 24 hours. It is conducted every year in the month of October. In the past competitions our members have won at National/ International level.<br>
+                   Members also participate in <b>IEEEXTREME</b> an online coding competition which runs for 24 hours. It is
+                    conducted every year in the month of October. In the past competitions our members have won at National/ 
+                    International level.<br>
                    <br>
-                   <b>WIE</b>: WIE affinity group also is active at the branch with its separate office bearers. Every year Women’s Day is celebrated on 8th March. It was named SPIRITONICA and a 1-day event was conducted in the year 2012. Since then till 2015 SPIRITONICA has been celebrated on every Women’s Day. Since past 2 years it is named TRIGARTI and spirit of Womanhood is celebrated. Apart from this panel discussions and debate were organised on the following topics: women empowerment; issues faced by women employees; careers for women in engineering etc. Recently the WIE affinity group celebrated UDAAN on 7th March 2020. Since 2 years the group appreciates the lady staffs of the institute by honouring them with essentials as a token of gratitude.<br>
+                   <b>WIE</b>: WIE affinity group also is active at the branch with its separate office bearers. Every year
+                    Women’s Day is celebrated on 8th March. It was named SPIRITONICA and a 1-day event was conducted in the 
+                    year 2012. Since then till 2015 SPIRITONICA has been celebrated on every Women’s Day. Since past 2 years 
+                    it is named TRIGARTI and spirit of Womanhood is celebrated. Apart from this panel discussions and debate 
+                    were organised on the following topics: women empowerment; issues faced by women employees; careers for 
+                    women in engineering etc. Recently the WIE affinity group celebrated UDAAN on 7th March 2020. Since 2 years 
+                    the group appreciates the lady staffs of the institute by honouring them with essentials as a token of 
+                    gratitude.<br>
                    <br>
                    <b>ACHIEVEMENT</b>:
 
@@ -141,51 +202,55 @@
 
               Three Members have been elevated to Senior Member IEEE through ELEVATE program.
 
-              Branch WIE affinity group was selected under STAR program in the year 2014 and was supported with funds of $300.00 for its activities and contribution to IEEE WIE.
+              Branch WIE affinity group was selected under STAR program in the year 2014 and was supported with 
+              funds of $300.00 for its activities and contribution to IEEE WIE.
 
-              Under the student branch, department of Electrical and Electronics Engineering initiated the ‘Power and Energy Society’ student chapter in the year 2019.<br>
+              Under the student branch, department of Electrical and Electronics Engineering initiated the 
+              ‘Power and Energy Society’ student chapter in the year 2019.<br>
               <br>
               <b>FUTURE PLANS</b>:
 
-            Student Branch will eye for achieving best Branch; best BC; best Branch Website etc. awards at Section and Region level.
+            Student Branch will eye for achieving best Branch; best BC; best Branch Website etc. awards at Section 
+            and Region level.
 
-            The Branch will keep an objective of hosting All India Students Congress; WIE National Summit in the next 5 years.
+            The Branch will keep an objective of hosting All India Students Congress; WIE National Summit in the 
+            next 5 years.
 
-            The Branch will collaborate with industries nearby and file online petition for starting a Technical Society or Chapter and organize ONE International Conference in the future.
+            The Branch will collaborate with industries nearby and file online petition for starting a Technical 
+            Society or Chapter and organize ONE International Conference in the future.
 
-            The Branch will try to conduct compulsory ONE humanitarian event every year and make it a flagship event to support society and stay with IEEE motto: Advancing technology for humanity.
+            The Branch will try to conduct compulsory ONE humanitarian event every year and make it a flagship 
+            event to support society and stay with IEEE motto: Advancing technology for humanity.
 
-
-
-            </div>
-            <div class="col-md-6 pt-2">
-              
             </div>
           </div>
         </div>
+        <!--history of IEEE GIT end-->
+
+        <!--history of IEEE official start-->
         <div class="tab-pane container" id="secondtab">
           <div class="row">
-            <div class="col-md-6 pt-2">
+            <div class="col-12 pt-2">
               <h1>About IEEE, In Brief</h1>
               <h3></h3>
               <p>
-                 The IEEE is the World's largest professional association which is continuosly prospering in innovation and technological excellence for the benefit of humanity. The IEEE family always strives to inspire a global community to discover a better tomorrow through it's highly-cited publications, conferences, technological standards and professional and educational activities. IEEE is an integral part for engineering, computing and technology information around the World.</p> <br><br>
-                 <p><b>Mission statement</b> IEEE's core purpose is to foster technological innovation and excellence for the benefit of humanity.
+                 The IEEE is the World's largest professional association which is continuosly prospering in innovation 
+                 and technological excellence for the benefit of humanity. The IEEE family always strives to inspire a 
+                 global community to discover a better tomorrow through it's highly-cited publications, conferences, 
+                 technological standards and professional and educational activities. IEEE is an integral part for 
+                 engineering, computing and technology information around the World.</p> <br><br>
+                 <p><b>Mission statement</b> IEEE's core purpose is to foster technological innovation and 
+                  excellence for the benefit of humanity.
                  </p> <br><br>
-                   <p><b>Vision statement</b> IEEE will be essential to the global technical community and to technical professionals everywhere, and be universally recognized for the contributions of technology and of technical professionals in improving global conditions. </p> <br><br>
+                   <p><b>Vision statement</b> IEEE will be essential to the global technical community and to technical 
+                    professionals everywhere, and be universally recognized for the contributions of technology and of 
+                    technical professionals in improving global conditions. </p>
                      
-            </div>
-            <div class="col-md-6 pt-2">
-              <h3></h3>
-              <p></p> <br><br>
-                 <p></p> <br><br><p>
-                     </p> <br><br>
-                     <p></p> <br><br>
             </div>
           </div>
       </div>
+      <!--history of IEEE official end-->
     </div>
-    
    </section>
    <!--section about end-->
    
@@ -249,37 +314,49 @@
 
   <!-- jQuery first --> 
   <script src="../Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
- 
-    <script>
+  <script>
 
-      $(document).ready(function() {
-        $(window).scroll(function() {
-          if($(window).scrollTop() >25) {  
-            $('.navbar').removeClass("bg-light");          
-            $('.navbar').addClass("on-scroll");
-            document.getElementById("git").style.display = "none";
-          }
-          else{
-            $('.navbar').addClass("bg-light");            
-            $('.navbar').removeClass("on-scroll");
-            document.getElementById("git").style.display = "block";            
-          }          
-        });
-
-        $('#second').click( function() {
-          $('#first').removeClass("onactive");
-          $('#second').addClass("onactive");
-          document.getElementById('history').innerHTML = "History of IEEE";
-        });
-
-        $('#first').click( function() {
-          $('#second').removeClass("onactive");
-          $('#first').addClass("onactive");
-          document.getElementById('history').innerHTML = "History of IEEE-GIT";
-        });
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        var t;
+        $('#backtoTop').css("opacity","1");
+        t = setTimeout(() => { $('#backtoTop').css("opacity","0") }, 10000);
+        if($(window).scrollTop() >25) {  
+          $('.navbar').removeClass("bg-light");
+          $(".navbar").addClass("navbar-dark");          
+          $('.navbar').addClass("on-scroll");
+          document.getElementById("git").style.display = "none";
+          document.getElementById("brand").src =
+        "../assets/images/logo/brand-logo-after.png";
+        }
+        else{
+          $(".navbar").removeClass("navbar-dark");
+          $('.navbar').addClass("bg-light");            
+          $('.navbar').removeClass("on-scroll");
+          document.getElementById("git").style.display = "block"; 
+          document.getElementById("brand").src =
+        "../assets/images/logo/brand-logo-before.png";           
+        }          
       });
 
-    </script>
+
+      $('#second').click( function() {
+        $('#first').removeClass("onactive");
+        $('#second').addClass("onactive");
+        document.getElementById('events-type').innerHTML = "Post Events"
+      });
+
+      $('#first').click( function() {
+        $('#second').removeClass("onactive");
+        $('#first').addClass("onactive");
+        document.getElementById('events-type').innerHTML = "Upcoming Events"
+      });
+
+    });
+
+
+
+  </script>
 
     <!---- Popper.js, then Bootstrap JS -->
   <script src="../Bootstrap/js/popper.min.js"></script>
