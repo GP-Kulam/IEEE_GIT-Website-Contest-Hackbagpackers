@@ -244,44 +244,9 @@
     </script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
-
     <!-- jQuery first-->
     <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
-
-    <script>
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          if ($(window).scrollTop() > 10) {
-            document.getElementById("brand").src =
-              "assets/images/logo/brand-logo-after.png";
-            $(".navbar").removeClass("navbar-light");
-            $(".navbar").addClass("navbar-dark");
-            $(".navbar").addClass("on-scroll");
-            document.getElementById("git").style.display = "none";
-          } else {
-            $(".navbar").addClass("navbar-light");
-            $(".navbar").removeClass("navbar-dark");
-            document.getElementById("brand").src =
-              "assets/images/logo/brand-logo-before.png";
-            $(".navbar").removeClass("on-scroll");
-            document.getElementById("git").style.display = "block";
-          }
-        });
-      });
-
-      var i = 0;
-      var txt = "IEEE GIT";
-      var speed = 100;
-
-      typewriter();
-      function typewriter() {
-        if (i < txt.length) {
-          document.getElementById("membership").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typewriter, speed);
-        }
-      }
-    </script>
+    <script src="js/script.js"></script>
 
     <!-- bootsrap popper.j and bootstrap js -->
     <script src="Bootstrap/js/popper.min.js"></script>
