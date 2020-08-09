@@ -102,7 +102,8 @@ nav ul li a:hover::before {
 .on-scroll {
   background-color: #6a3bd6;
   opacity: 0.99;
-  box-shadow: 1px 4px 26px rgba(145, 144, 144, 0.548);
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.747);
+  box-shadow: 1px 4px 40px rgb(0, 0, 0);
   /*transition: 2s all;*/
   animation: drop 1s ease;
 }
@@ -298,7 +299,6 @@ nav ul li a:hover::before {
 .welcome-section img {
   animation: rotate 3s linear infinite;
 }
-
 
 @keyframes rotate {
   0% {
