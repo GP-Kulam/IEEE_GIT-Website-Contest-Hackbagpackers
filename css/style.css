@@ -16,7 +16,7 @@ body {
   transition: transform 0.3s;
 }
 
-.events a:hover .fa-calendar{
+.events a:hover .fa-calendar {
   color: violet;
 }
 
@@ -25,14 +25,9 @@ body {
   transition: transform 0.3s;
 }
 
-.past a:hover .fa-calendar{
+.past a:hover .fa-calendar {
   color: black;
 }
-
-
-
-
-
 
 /*header has two parts topheder and bottom header*/
 
@@ -130,13 +125,12 @@ nav ul li a:hover::before {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.527);
   box-shadow: 1px 4px 40px rgb(22, 22, 22);
   transition: all 1s;
-  animation: drop 2s ease;
+  animation: drop 1s ease;
 }
 
 @keyframes drop {
   from {
     transform: translateY(-100%);
-
   }
   to {
     transform: translateY(0%);
@@ -370,11 +364,8 @@ nav ul li a:hover::before {
   height: 20%;
   background-attachment: fixed;
 
-
-
   /* z-index: -99; */
   /* Position text in the middle of the page/image */
-
 }
 
 /* ++++++++++ end of contact us page +++++++++ */
