@@ -129,8 +129,18 @@ nav ul li a:hover::before {
   border-radius: 0 0 20px 20px;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.527);
   box-shadow: 1px 4px 40px rgb(22, 22, 22);
-  /*transition: 2s all;*/
-  animation: drop 1s ease;
+  transition: all 1s;
+  animation: drop 2s ease;
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-100%);
+
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
 
 #particles-js {
