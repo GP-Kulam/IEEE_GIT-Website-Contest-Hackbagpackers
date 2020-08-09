@@ -28,40 +28,71 @@
       <a id="backtoTop" href="#"><i class="fas fa-arrow-up"></i></a>
       <div>
         <div class="container-fluid" id="top">
-          <nav class="navbar navbar-light bg-light fixed-top navbar-toggleable-md navbar-inverse navbar-expand-lg">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <!--menu Toggler-->
-            <i type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" >
-              <span class="fa fa-bars"></span></i>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggler"
+              aria-controls="navbarToggler"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="fa fa-bars"></span>
+            </button>
             <!--logo start-->
-            <a href="#" class="navbar-brand align-items-center">
-             <!---<h2 style="color: #64c0eb;"><i class="fas fa-book-reader"></i> IEEE-GIT</h2>-->
-             <img src="../assets/images/IEEE-GIT-Brand.png" alt="IEEE logo" width="150px">
-              <p style="color: rgb(0, 0, 0); font-size: 0.8rem; font-weight: bold;" class="git-ieee ml-5 mt-n2" id="git" data-aos="fade-right" ><i><span class="GIT-Branch-logo" >GIT</span> STUDENT
-                <br> <span style="font-size: 1rem;" >B R A N C H</span></i>
+            <a
+              href="#"
+              style="float: none;"
+              class="navbar-brand align-items-center"
+            >
+              <!---<h2 style="color: #64c0eb;"><i class="fas fa-book-reader"></i> IEEE-GIT</h2>-->
+              <img
+                id="brand"
+                src="../assets/images/logo/brand-logo-before.png"
+                alt="IEEE logo"
+                width="150px"
+              />
+              <p
+                style="
+                  color: rgb(0, 0, 0);
+                  font-size: 0.8rem;
+                  font-weight: bold;
+                "
+                class="git-ieee ml-5 mt-n2"
+                id="git"
+                data-aos="fade-right"
+              >
+                <i
+                  ><span class="GIT-Branch-logo">GIT</span> STUDENT <br /><span
+                    style="font-size: 1rem;"
+                    >B R A N C H</span
+                  ></i
+                >
               </p>
-              
             </a> <!--logo end-->
             <div class="collapse navbar-collapse" id="navbarToggler">
               <!--ul start--> 
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a href="../index.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">Home</a>
+                  <a href="../index.html" class="nav-link mr-4">Home</a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="about.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">About</a>
+                  <a href="about.html" class="nav-link mr-4">About</a>
                 </li>
      
                 <li class="nav-item active">
-                  <a href="events.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">Events</a>
+                  <a href="events.html" class="nav-link mr-4">Events</a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="EXECOM.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">EXECOM 2020</a>
+                  <a href="EXECOM.html" class="nav-link mr-4">EXECOM 2020</a>
                 </li>
 
                 <li class="nav-item mr-5">
-                  <a href="contact.html" class="nav-link pt-2 pb-2 pl-2 pl-md-4 pr-4">Contact us</a>
+                  <a href="contact.html" class="nav-link mr-4">Contact us</a>
                 </li>
 
               </ul> <!--ul start-->
@@ -626,16 +657,21 @@
           var t;
           $('#backtoTop').css("opacity","1");
           t = setTimeout(() => { $('#backtoTop').css("opacity","0") }, 10000);
-          if($(window).scrollTop() >25) {  
-            $('.navbar').removeClass("bg-light");          
-            $('.navbar').addClass("on-scroll");
+          if ($(window).scrollTop() > 25) {
+            $(".navbar").removeClass("bg-light");
+            $(".navbar").addClass("navbar-dark");
+            $(".navbar").addClass("on-scroll");
             document.getElementById("git").style.display = "none";
+            document.getElementById("brand").src =
+              "../assets/images/logo/brand-logo-after.png";
+          } else {
+            $(".navbar").removeClass("navbar-dark");
+            $(".navbar").addClass("bg-light");
+            $(".navbar").removeClass("on-scroll");
+            document.getElementById("git").style.display = "block";
+            document.getElementById("brand").src =
+              "../assets/images/logo/brand-logo-before.png";
           }
-          else{
-            $('.navbar').addClass("bg-light");            
-            $('.navbar').removeClass("on-scroll");
-            document.getElementById("git").style.display = "block";            
-          }          
         });
 
 
