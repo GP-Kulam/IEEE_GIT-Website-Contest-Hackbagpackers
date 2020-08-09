@@ -102,8 +102,9 @@ nav ul li a:hover::before {
 .on-scroll {
   background-color: #6a3bd6;
   opacity: 0.99;
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.747);
-  box-shadow: 1px 4px 40px rgb(0, 0, 0);
+  border-radius: 0 0 20px 20px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.527);
+  box-shadow: 1px 4px 40px rgb(22, 22, 22);
   /*transition: 2s all;*/
   animation: drop 1s ease;
 }
