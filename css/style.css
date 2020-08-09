@@ -121,10 +121,9 @@ nav ul li a:hover::before {
 .on-scroll {
   background-color: #6a3bd6;
   opacity: 0.99;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 40px 40px;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.527);
   box-shadow: 1px 4px 40px rgb(22, 22, 22);
-  transition: all 1s;
   animation: drop 1s ease;
 }
 
@@ -199,7 +198,7 @@ nav ul li a:hover::before {
 
 /*top footer*/
 .full-footer {
-  background: #381e75;
+  background: #1b0c3d;
 }
 .topFooter p {
   color: silver;
@@ -214,6 +213,7 @@ nav ul li a:hover::before {
 
 /*bottom footer*/
 .bottomFooter {
+  border-radius: 20px 20px 0 0;
   background-color: #160b30;
 }
 
@@ -230,8 +230,8 @@ nav ul li a:hover::before {
   border-radius: 8px;
   height: 60px;
   width: 60px;
-  background: #381e75;
-  box-shadow: 6px 6px 12px #301a63, -6px -6px 12px #402387;
+  background: #1b0c3d;
+  box-shadow: 6px 6px 13px #0f0622e8, -6px -6px 13px #241052;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -259,9 +259,9 @@ nav ul li a:hover::before {
 }
 
 .social-media a:hover {
-  box-shadow: inset 3px 3px 5px -1px #281152af,
-    inset -3px -3px 5px -1px #40176ea2, -1px -1px 0px #281152af,
-    1px 1px 0px #40176ea2, 0px 8px 6px -6px #35176ea2;
+  box-shadow: inset 3px 3px 5px -1px #0f061faf,
+    inset -3px -3px 5px -1px #40176ea2, -1px -1px 0px #090413af,
+    1px 1px 0px #40176ea2, 0px 8px 6px -6px #000000a2;
   transform: translateY(2px);
 }
 
