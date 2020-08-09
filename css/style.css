@@ -10,6 +10,30 @@ body {
   background: #ffffff;
 }
 
+/* events in homepage */
+.events a i {
+  font-size: 88px;
+  transition: transform 0.3s;
+}
+
+.events a:hover .fa-calendar{
+  color: violet;
+}
+
+.past a i {
+  font-size: 48px;
+  transition: transform 0.3s;
+}
+
+.past a:hover .fa-calendar{
+  color: black;
+}
+
+
+
+
+
+
 /*header has two parts topheder and bottom header*/
 
 /*customize the in buit class container-fluid to remove unwanted padding*/
@@ -331,10 +355,18 @@ nav ul li a:hover::before {
 }
 
 .contact-us-outer {
-  background: url("../assets/images/contact-us\ background\ Final.jpg");
-  background-size: cover;
+  background-image: url("../assets/images/contact.png");
+  background-color: black;
+  /* background-size: cover; */
+  width: 100%;
+  height: 20%;
   background-attachment: fixed;
-  z-index: -999;
+
+
+
+  /* z-index: -99; */
+  /* Position text in the middle of the page/image */
+
 }
 
 /* ++++++++++ end of contact us page +++++++++ */
