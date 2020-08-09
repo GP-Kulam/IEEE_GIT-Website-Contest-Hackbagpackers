@@ -124,7 +124,7 @@ nav ul li a:hover::before {
   border-radius: 0 0 40px 40px;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.527);
   box-shadow: 1px 4px 40px rgb(22, 22, 22);
-  animation: drop 1s ease;
+  animation: drop 1s ease-out;
 }
 
 @keyframes drop {
