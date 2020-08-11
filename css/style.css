@@ -693,3 +693,21 @@ nav ul li a:hover::before {
 }
 /*** ++++++++ events page end +++++++**/
 
+/***** ++++++ gallery page start ++++****/
+
+.gallery p{
+  color: #4c00ff;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery h1 {
+  color: #333333
+  ;
+  
+}
+
+
+
+
+/***** ++++++ gallery page end ++++****/
