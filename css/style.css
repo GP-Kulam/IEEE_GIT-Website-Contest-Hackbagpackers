@@ -699,6 +699,15 @@ nav ul li a:hover::before {
   color: #4c00ff;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: -20px;
+  border: 1px solid rgba(160, 160, 160, 0.644);
+  background-image: radial-gradient(#75757513 20%, transparent 20%),
+      radial-gradient(#fafafa 20%, transparent 20%);
+  background-color: #ffffff;
+  background-position: 0 0, 50px 50px;
+  background-size: 20px 20px;
 }
 
 .gallery h1 {
