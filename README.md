@@ -16,7 +16,7 @@ After git repo cloned, just run website using live server or opening index.html 
 ### Technology Used
 The website is built upon html,css,javascript and minimal use of jquery.
 
-######framework used
+###### framework used
 - [Bootstrap 4](https://getbootstrap.com/)
 
 
