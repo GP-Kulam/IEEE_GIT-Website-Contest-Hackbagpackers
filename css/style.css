@@ -714,6 +714,15 @@ nav ul li a:hover::before {
   opacity: 0;
   transition: opacity 0.9s ease-out;
 }
+
+#post-events a {
+  color: blue;
+}
+
+#post-events a:hover {
+  text-decoration: underline;
+  color: #2e0099;
+}
 /*** ++++++++ events page end +++++++**/
 
 /***** ++++++ gallery page start ++++****/
