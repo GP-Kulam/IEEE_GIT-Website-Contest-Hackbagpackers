@@ -676,11 +676,6 @@ nav ul li a:hover::before {
   color: #ffffff;
 }
 
-.events-template {
-  border-radius: 26px;
-  background: #ffffff;
-  box-shadow: 13px 13px 26px #e8e8e8, -13px -13px 26px #ffffff;
-}
 
 #backtoTop {
   position: fixed;
