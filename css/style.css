@@ -636,7 +636,6 @@ nav ul li a:hover::before {
 /* ++++++++++ start pg about pade +++++++++ */
 
 .section-about a {
-  background-image: image(../assets/images/back1.png);
   text-decoration: none;
   font-size: 15px;
   margin-left: 50px;
