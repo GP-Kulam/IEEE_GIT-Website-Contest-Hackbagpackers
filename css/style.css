@@ -615,6 +615,20 @@ nav ul li a:hover::before {
   }
 }
 
+.IEEE-lines {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #646464;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.IEEE-lines::before {
+  content: open-quote;
+}
+.IEEE-lines::after {
+  content: close-quote;
+}
+
 /* welocme section end*/
 
 .execom-section {
