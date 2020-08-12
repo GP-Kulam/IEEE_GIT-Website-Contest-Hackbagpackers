@@ -457,6 +457,20 @@ nav ul li a:hover::before {
   font-size: 1.1rem;
 }
 
+.read-more-btn {
+  padding: 5px 20px;
+  border: 2px solid rgba(134, 5, 255, 0.986);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: blueviolet;
+  color: #fafafa;
+
+}
+
 /*footer start*/
 
 /*top footer*/
