@@ -773,13 +773,6 @@ nav ul li a:hover::before {
 
 
 /* start of the blog  ****************/
-.blogcontainer {
-  background-image: url("../assets/images/page.svg");
-  background-repeat: no-repeat;
-  /* background-color: gray; */
-  height: 75%;
-  /* background-size: cover; */
-}
 
 .blog {
   font-family: 'Times New Roman', Times, serif;
