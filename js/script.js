@@ -1,9 +1,7 @@
 $(document).ready(function () {
 
 
-  $(window).on("load",function(){
-    $(".loader").fadeOut("slow");
-});
+  
 
   var i = 0;
   var txt = "IEEE GIT";
