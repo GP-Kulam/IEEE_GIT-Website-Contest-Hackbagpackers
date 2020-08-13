@@ -1,4 +1,8 @@
 $(document).ready(function () {
+
+
+  
+
   var i = 0;
   var txt = "IEEE GIT";
   var speed = 100;
