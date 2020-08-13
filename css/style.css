@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #447fff;
+  background-color: #6a3bd6;
   z-index: 100;
   pointer-events: none;
 }
@@ -27,7 +27,7 @@ body {
   width: 20px;
   height: 100px;
   margin: 0 5px;
-  background: #447fff;
+  background: #6a3bd6;
   animation: animate 1.4s linear infinite;
 
 }
