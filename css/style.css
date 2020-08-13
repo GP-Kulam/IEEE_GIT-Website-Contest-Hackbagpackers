@@ -23,7 +23,6 @@ body {
 }
 
 .loader span {
-  position: relative;
   width: 20px;
   height: 100px;
   margin: 0 5px;
