@@ -19,6 +19,7 @@ body {
   align-items: center;
   background-color: #447fff;
   z-index: 100;
+  pointer-events: none;
 }
 
 .loader span {
