@@ -58,14 +58,16 @@ Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Expl
 - 60% of your dominant color, 30% for your secondary color and 10% for accent color.
 - what you see is crafted with designed cleanly and with the vision of the public audience as prefference.
 
-##### hosting link
- 
-[link](https://link)
 
 
 #### Documentation
 
 For a quick overview of each project in the Platform, you can search for README.md file in the root of the projects folders.
+
+## hosting link
+ 
+[checkout](https://gp-kulam.github.io/IEEE_GIT-Website-Contest-Hackbagpackers/)
+
 
 
 
